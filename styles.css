@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #0D0D0D;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+    color: #0D0D0D;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    color: #0D0D0D;
+}
+
+h3{
+    font-size: 25px;
+    color: #0D0D0D;
+}
+
+p, ul, ol, dd, dt, li, nav, input{
+    font-size: 16px;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#0D0D0D;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+.nav-menu div img{
+    width: 60px;
+    height: 60px;
+}
+
+.recipe-header{
+    text-align: center;
+    margin: 20px;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.actions button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe-content{
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.ingredients, .directions {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
