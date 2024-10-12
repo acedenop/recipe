@@ -29,11 +29,7 @@ p, ul, ol, dd, dt, li, nav, input{
     font-size: 16px;
 }
 
-a{
-    font-size: 20px;
-    text-decoration: none;
-    color:#0D0D0D;
-}
+
 
 button{
     background-color: transparent;
@@ -48,10 +44,40 @@ img{
 
 .nav-menu{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    padding: 10px;
+    align-items: normal;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    color: #EB5428;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 145px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu div{
+    text-align: center;
+}
+
+.nav-menu img{
+    padding-top: 28px;
+}
+
+.logo-button{
+    width: 100px;
+    height: 145px;
+    padding: 0;
+}
+
+.avatar-button{
+    width: 80px;
+}
+
+.nav-menu .avatar-button p{
+    color: #0D0D0D;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .nav-menu div img{
@@ -59,22 +85,56 @@ img{
     height: 60px;
 }
 
+.nav-menu .logo-button{
+    background-color: #EB5428;
+}
 .recipe-header{
     text-align: center;
     margin: 20px;
 }
 
-.actions{
+.search-button{
     display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
+    justify-content: end;
+    align-items: center;
+    width: 300px;
+    height: 50px; 
+    border: #0D0D0D;
+    background-color: #ffffff; 
+    padding: 5px 15px; 
+    margin: 30px auto;
+    border: 2px solid #EB5428;
 }
 
-.actions button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+.search-button svg{
+    color: #FFFFFF;
 }
+.actions{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: 800px;
+}
+
+.button-column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 700px;
+    padding: 15px;
+    border: #EB5428 solid 3px;
+    justify-content: space-evenly;
+}
+
+.button-column button{
+    height: 100px;
+    width: 100px;
+}
+.button-column svg{
+    height: 50px;
+    width: 50px;
+}
+
 
 .recipe-content{
     background-color: #F2F2F2;
