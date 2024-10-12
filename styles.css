@@ -77,9 +77,50 @@ img{
 }
 
 .recipe-content{
-    padding: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
+    display: flex;
+    justify-content: normal;
+    flex-direction: column;
+}
+
+.ingredients{
+    width: 45%;
+    margin-right: 5%;
+}
+
+.ingredients h3{
+    font-size: 24px;
+    color: #0D0D0D;
+}
+
+.ingredients ul{
+    list-style-type: circle;
+    padding: 0;
+}
+
+.ingredients ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.directions{
+    width: 45%;
+}
+
+.directions h3{
+    font-size: 24px;
+    color: #0D0D0D;
+}
+
+.directions ol{
+    list-style-position: inside;
+    padding: 0;
+}
+
+.directions ol li{
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 
 .ingredients, .directions {
@@ -87,4 +128,71 @@ img{
     margin: 20px 0;
     background-color: #F2F2F2;
     border-radius: 10px;
+}
+
+.ingredients ul, .directions ol{
+    list-style-position: inside;
+}
+
+.ingredients ul li, .directions ol li{
+    padding: 5px 0;
+}
+
+.side-dishes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #7ABFBF;
+}
+
+.side-dish{
+    margin: 10px;
+    text-align: center;
+}
+
+.side-dish img{
+    width: 150px;
+    height: 150px;
+}
+
+.side-dish .rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-dish .rating svg{
+    margin: 0 2px;
+    fill: #EB5428;
+    border: 2px #F2F2F2;
+}
+
+.side-dish figcaption{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    color: #0D0D0D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.connect button{
+    background-color: transparent;
+    color: #EB5428;
+    border: none;
+    cursor: pointer;
+}
+
+footer img{
+    width: 25%;
+    margin-top: 20px;
 }
